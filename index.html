@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>OLD SHOP</title>
+</head>
+<body>
+    
+    <header class="cabecalho">
+        <div class="cabecalho-navegacao">
+            <p>OLD SHOP</p>
+            <nav class="cabecalho-nav">
+                <a href="#">Relíquias</a>                  
+                <a href="#">Velharias</a>
+                <a href="#">Nostalgia</a>
+            </nav>
+        </div>
+        <div class="cabecalho-entradas">
+            <input type="search" 
+                   name="input-pesquisa" 
+                   id="input-pesquisa"
+                   placeholder="Pesquisar"
+            >
+            <span>
+                <img src="./images/shopping-bag.svg" 
+                alt="Sacola de compras">
+                <p id="carrinho-qtd">0</p>
+            </span>
+        </div>
+    </header>
+
+    <main class="conteudo">
+        <section class="conteudo-imagens">
+            <div class="imagem-destaque" id="imagem-destaque">
+                <img src="./images/image 1.svg">
+            </div>
+            <div class="mini-imagens">
+                <img class="miniatura" src="./images/image 2.svg">
+                <img class="miniatura" src="./images/image 3.svg">
+                <img class="miniatura" src="./images/image 4.svg">
+            </div>
+        </section>
+        <section class="conteudo-info">
+            <h1>Fita VHS Basf T-120 Extra Quality</h1>
+            <p class="vendedor">POR <span>OLD ELETRÔNICOS</span></p>
+            <div class="produto-precos">
+                <p class="preco">R$ 40</p>
+                <p class="desconto">Desconto 10% <br>
+                <span>no PIX</span></p>
+            </div>
+            <p class="descricao">Se você está em busca de uma fita VHS de alta qualidade, a FITA VHS BASF T-120 Extra Quality é a escolha ideal para você.</p>
+            <div class="comprar">
+                <span class="quantidade">
+                    <p>QTD</p>
+                    <input type="number"
+                           min="1"
+                           value="1"
+                           id="quantidade"
+                    >
+                </span>
+                <button type="button"
+                        class="carrinho-btn"
+                        id="carrinho-btn"
+                >
+                    Adicionar ao carrinho
+                </button>
+            </div>
+
+        </section>
+    </main>
+    
+    <script src="/script.js"></script>
+</body>
+</html>
